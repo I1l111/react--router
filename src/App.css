@@ -1,0 +1,24 @@
+.MainNav ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.MainNav li {
+    list-style: none;
+}
+
+.MainNav a {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.MainNav a:hover,
+.MainNav a:active,
+.MainNav a.active {
+    color: green;
+    text-shadow: greenyellow 0 0 1px;
+}
